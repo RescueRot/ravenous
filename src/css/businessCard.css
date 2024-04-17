@@ -1,23 +1,27 @@
 .BusinessCard {
     display: grid;
-    width: 40vw;
+    width: 95%;
+    height: 50vh;
     background-color: rgba(58, 58, 58, 0.747);
     grid-template-columns: 95%;
     justify-content: space-evenly;
-    row-gap: 0.5vh;
     text-align: center;
     align-items: center;
     overflow: hidden;
     border-radius: 20px;
 }
 .BusinessCard img {
+    position: relative;
+    top: -100px;
     border-radius: 50px;
-    padding-top: 2vh;
-    padding-left: 1.5vw;
-    width: 35vw;
-    height: 30vw;
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 90%;
+    height: 50%;
 }
 .ExtraInfoTemplate {
+    position: relative;
+    top: -250px;
     background-color: rgb(141, 141, 141);
     border-radius: 20px;
     display: grid;
@@ -31,4 +35,8 @@
 }
 .ExtraInfoTemplate h2, h3 {
     color: yellow;
+}
+.bCtitle {
+    position: relative;
+    top: -50px;
 }

@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './css/App.css';
-import Business from './components/business';
+import BusinessList from './components/businessList';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
-    <Business/>
+    <div className='mainAppComponent'>
+    <SearchBar/>
+    <BusinessList/>
+    </div>
   );
 }
 
