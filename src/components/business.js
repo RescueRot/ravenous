@@ -27,7 +27,7 @@ function Business() {
     return (
         <div className="BusinessCard">
             <img src={image} alt={name}/>
-            <h1>{name}</h1>
+            <h1 className="bCtitle">{name}</h1>
             {extraInfo}
         </div>
     );
