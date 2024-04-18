@@ -21,8 +21,8 @@ function SearchBar() {
         <div className = "searchBar">
             {filterOptions}
             <div className = "searchInputs">
-                <input/>
-                <input/>
+                <input placeholder="Search Businesses"/>
+                <input placeholder="Where?"/>
             </div>
             <button className="button-27" role="button">Search</button>
         </div>

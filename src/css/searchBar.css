@@ -3,6 +3,7 @@
 .searchBar {
     margin-top: 10vh;
     margin-bottom: 5vh;
+    padding-left: 2vw;
 
     display: flex;
     flex-direction: column;
