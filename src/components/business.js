@@ -1,17 +1,16 @@
 import React from "react";
-import { marginOtto } from "../data/business";
 import '../css/businessCard.css';
 
-function Business() {
-    const image = marginOtto.imageSrc;
-    const name = marginOtto.name;
-    const adress = marginOtto.address;
-    const city = marginOtto.city;
-    const state = marginOtto.state;
-    const zipcode = marginOtto.zipCode;
-    const category = marginOtto.category;
-    const rating = marginOtto.rating;
-    const reviewCount = marginOtto.reviewCount;
+function Business(props) {
+    const image = props.businessObject.imageSrc;
+    const name = props.businessObject.name;
+    const adress = props.businessObject.address;
+    const city = props.businessObject.city;
+    const state = props.businessObject.state;
+    const zipcode = props.businessObject.zipCode;
+    const category = props.businessObject.category;
+    const rating = props.businessObject.rating;
+    const reviewCount = props.businessObject.reviewCount;
 
     const extraInfo = (
         <div className="ExtraInfoTemplate">
